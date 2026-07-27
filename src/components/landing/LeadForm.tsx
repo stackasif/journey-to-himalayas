@@ -90,7 +90,7 @@ export function LeadForm() {
         <Field label="Full Name" error={errors.fullName}>
           <input
             className={inputCls}
-            placeholder="Ravi Sharma"
+            placeholder="Danish dalal"
             value={values.fullName}
             onChange={(e) => set("fullName", e.target.value)}
             maxLength={80}
@@ -99,7 +99,7 @@ export function LeadForm() {
         <Field label="Phone Number" error={errors.phone}>
           <input
             className={inputCls}
-            placeholder="98XXXXXXXX"
+            placeholder="81XXXXXXXX"
             value={values.phone}
             onChange={(e) => set("phone", e.target.value)}
             inputMode="tel"
