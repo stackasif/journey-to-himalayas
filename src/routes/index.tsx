@@ -30,13 +30,13 @@ import { FAQ } from "@/components/landing/FAQ";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Himavan Journeys — Premium Nepal Road Trips for Indian Travelers" },
+      { title: "Srt Travels - Let's begin the ride" },
       {
         name: "description",
         content:
           "Private Nepal road trips from Lucknow, Delhi, Varanasi and Gorakhpur. Handpicked hotels, comfortable vehicles, custom itineraries. Download the free 2026 Nepal Road Trip Guide.",
       },
-      { property: "og:title", content: "Himavan Journeys — Premium Nepal Road Trips" },
+      { property: "og:title", content: "Srt Travels - Let's begin the ride" },
       {
         property: "og:description",
         content:
@@ -51,7 +51,7 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "TravelAgency",
-          name: "Himavan Journeys",
+          name: "SRT Travels",
           description:
             "Premium Nepal road trip experiences for Indian travelers — private fleet, curated hotels, custom itineraries.",
           areaServed: "Nepal",
