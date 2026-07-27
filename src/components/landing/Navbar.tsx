@@ -45,7 +45,7 @@ export function Navbar() {
               </div>
               <div className="min-w-0">
                 <div className="text-sm font-semibold tracking-tight text-foreground truncate">
-                  Himavan Journeys
+                  SRT Travels
                 </div>
                 <div className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground">
                   Nepal Road Trips

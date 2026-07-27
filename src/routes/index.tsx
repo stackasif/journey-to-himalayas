@@ -644,7 +644,7 @@ function Footer() {
                 <Mountain className="h-5 w-5 text-white" strokeWidth={2.4} />
               </div>
               <div>
-                <div className="text-sm font-semibold tracking-tight">Himavan Journeys</div>
+                <div className="text-sm font-semibold tracking-tight">SRT TRAVELS</div>
                 <div className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground">Nepal Road Trips</div>
               </div>
             </div>
@@ -666,10 +666,10 @@ function Footer() {
           <div>
             <div className="text-sm font-semibold tracking-tight">Contact</div>
             <ul className="mt-4 space-y-3 text-sm text-muted-foreground">
-              <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-accent" /> +91 99999 99999</li>
+              <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-accent" /> +91 8574748157</li>
               <li className="flex items-center gap-2"><MessageCircle className="h-4 w-4 text-accent" /> WhatsApp 24×7</li>
-              <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-accent" /> hello@himavan.travel</li>
-              <li className="flex items-center gap-2"><MapPin className="h-4 w-4 text-accent" /> Hazratganj, Lucknow · India</li>
+              <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-accent" /> sameeransari.nhgkp@gmail.com</li>
+              <li className="flex items-center gap-2"><MapPin className="h-4 w-4 text-accent" /> Surajkund, Gorakhpur · India</li>
               <li>
                 <a href="#" className="inline-flex items-center gap-1.5 text-foreground hover:text-accent">
                   <Map className="h-4 w-4" /> View on Google Maps
@@ -680,7 +680,7 @@ function Footer() {
         </div>
 
         <div className="mt-14 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border-t border-white/10 pt-6 text-xs text-muted-foreground">
-          <div>© {new Date().getFullYear()} Himavan Journeys · All rights reserved.</div>
+          <div>© {new Date().getFullYear()} Developed by · ASIF ANSARI🙂</div>
           <div className="flex gap-6">
             <a href="#" className="hover:text-foreground">Privacy</a>
             <a href="#" className="hover:text-foreground">Terms</a>
@@ -709,7 +709,7 @@ function FooterCol({ title, links }: { title: string; links: string[] }) {
 function FloatingWhatsApp() {
   return (
     <a
-      href="https://wa.me/919999999999"
+      href="https://wa.me/918574748157"
       target="_blank" rel="noreferrer"
       className="fixed bottom-5 right-5 z-40 group flex items-center gap-3 rounded-full gradient-primary px-4 py-3 shadow-glow hover:scale-105 transition-transform"
       aria-label="Chat on WhatsApp"
